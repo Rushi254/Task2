@@ -83,7 +83,7 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });
 //connect to mongodb using mongoose
-mongoose.connect("mongodb+srv://Rushi:e@p5ecommerce.vjqaxvd.mongodb.net/")
+mongoose.connect("")
 .then(()=>{
     console.log("connected to mongodb successfully");
 })
